@@ -11,5 +11,10 @@ while (true)
     if (string.Equals("quit", command, StringComparison.OrdinalIgnoreCase))
     {
         break;
+    } 
+    else
+    {
+        Console.WriteLine($"Invalid command: {command}");
     }
+
 }
